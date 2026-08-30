@@ -2,6 +2,13 @@
 
 ![Vox Humana Preview](preview.png)
 
+<img width="3200" height="2000" alt="screenshot-2026-08-29_20-17-25" src="https://github.com/user-attachments/assets/6b6a5c0a-4be5-4d2b-b352-5a4b657016c8" />
+<img width="3200" height="2000" alt="screenshot-2026-08-29_20-17-06" src="https://github.com/user-attachments/assets/ae0cbe4f-8582-4818-9c62-c8f55a3bf9cf" />
+<img width="3200" height="2000" alt="screenshot-2026-08-29_20-15-58" src="https://github.com/user-attachments/assets/0022a55b-d106-4892-8efe-5a13b84295d0" />
+<img width="3200" height="2000" alt="screenshot-2026-08-29_20-14-31" src="https://github.com/user-attachments/assets/9da87259-fe40-43e6-a209-51ad0a486b8f" />
+<img width="3200" height="2000" alt="screenshot-2026-08-29_20-11-22" src="https://github.com/user-attachments/assets/3b707d6a-ad44-4e9e-8f74-a9519bd03382" />
+
+
 A dark, dystopian, yet whimsical theme for [Omarchy](https://omarchy.org/) Linux systems, inspired by the profound existential lyrics of *"Incredible Shrinking Man"* and styled with a custom dark-mustard and rust-red color palette.
 
 ## Features
