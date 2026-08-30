@@ -38,7 +38,7 @@ Alternatively, you can activate it via the command line:
 omarchy theme set "Vox Humana"
 ```
 
-To cycle through the 20 included 4K wallpapers:
+To cycle through the 18 included 3.2K wallpapers:
 
 ```bash
 omarchy theme bg next
