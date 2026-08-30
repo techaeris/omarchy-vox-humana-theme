@@ -9,7 +9,7 @@
 <img width="3200" height="2000" alt="screenshot-2026-08-29_20-11-22" src="https://github.com/user-attachments/assets/3b707d6a-ad44-4e9e-8f74-a9519bd03382" />
 
 
-A dark, dystopian, yet whimsical theme for [Omarchy](https://omarchy.org/) Linux systems, inspired by the profound existential lyrics of *"Incredible Shrinking Man"* and styled with a custom dark-mustard and rust-red color palette.
+A dark, dystopian, yet whimsical theme for [Omarchy](https://omarchy.org/) Linux systems, inspired by the profound existential lyrics of Daniel Amos's *"Incredible Shrinking Man"* and styled with a custom dark-mustard and rust-red color palette.
 
 ## Features
 
