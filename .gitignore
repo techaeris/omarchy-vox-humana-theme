@@ -1,0 +1,6 @@
+# Omarchy Theme - Git Ignore
+*.log
+*.bak
+*.tmp
+icon-theme.cache
+*~

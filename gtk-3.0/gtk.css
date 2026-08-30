@@ -1,0 +1,184 @@
+/**
+ * Vox Humana Theme - GTK3/GTK4/Adwaita Custom Styling
+ * Dark, dystopian, but whimsical.
+ */
+
+/* Dynamic color palette from Vox Humana */
+@define-color background #201713;
+@define-color foreground #e5dac5;
+
+@define-color black #100b09;
+@define-color red #a8472a;
+@define-color green #0caa4a;
+@define-color yellow #e5a221;
+@define-color blue #3285b4;
+@define-color magenta #ab7fa8;
+@define-color cyan #7fa8ab;
+@define-color white #f2e8d5;
+
+@define-color bright_black #644530;
+@define-color bright_red #c85a3c;
+@define-color bright_green #23c260;
+@define-color bright_yellow #f2b53c;
+@define-color bright_blue #4a9ac6;
+@define-color bright_magenta #c09ec0;
+@define-color bright_cyan #9cc4c6;
+@define-color bright_white #ffffff;
+
+/* Adwaita / Libadwaita Color Overrides */
+@define-color accent_bg_color #e5a221;
+@define-color accent_fg_color #100b09;
+@define-color accent_color #e5a221;
+
+@define-color window_bg_color #201713;
+@define-color window_fg_color #e5dac5;
+
+/* Sidebar and content background */
+@define-color view_bg_color #18110e;
+@define-color view_fg_color #e5dac5;
+@define-color sidebar_bg_color #18110e;
+@define-color sidebar_fg_color #e5dac5;
+@define-color sidebar_backdrop_color #100b09;
+@define-color sidebar_shade_color #100b09;
+
+@define-color headerbar_bg_color #201713;
+@define-color headerbar_fg_color #e5dac5;
+@define-color headerbar_backdrop_color #100b09;
+@define-color headerbar_shade_color #100b09;
+@define-color card_bg_color #2d211a;
+@define-color card_fg_color #e5dac5;
+
+@define-color popover_bg_color #18110e;
+@define-color popover_fg_color #e5dac5;
+
+@define-color destructive_bg_color #a8472a;
+@define-color destructive_fg_color #f2e8d5;
+
+@define-color success_bg_color #0caa4a;
+@define-color success_fg_color #100b09;
+
+@define-color warning_bg_color #e5a221;
+@define-color warning_fg_color #100b09;
+
+@define-color error_bg_color #a8472a;
+@define-color error_fg_color #f2e8d5;
+
+@define-color dialog_bg_color #18110e;
+@define-color dialog_fg_color #e5dac5;
+
+@define-color borders alpha(#e5dac5, 0.15);
+
+/* Secondary / Subtle text with high WCAG contrast (> 4.5:1) */
+@define-color muted #a89c92;
+@define-color secondary_fg_color #a89c92;
+@define-color dim_label #a89c92;
+
+/* GTK3 Adwaita Legacy Color Variables */
+@define-color theme_fg_color #e5dac5;
+@define-color theme_text_color #e5dac5;
+@define-color theme_bg_color #201713;
+@define-color theme_base_color #18110e;
+@define-color theme_selected_bg_color #e5a221;
+@define-color theme_selected_fg_color #100b09;
+@define-color insensitive_bg_color #201713;
+@define-color insensitive_fg_color #644530;
+@define-color insensitive_base_color #18110e;
+@define-color theme_unfocused_fg_color #e5dac5;
+@define-color theme_unfocused_text_color #e5dac5;
+@define-color theme_unfocused_bg_color #201713;
+@define-color theme_unfocused_base_color #18110e;
+@define-color theme_unfocused_selected_bg_color #e5a221;
+@define-color theme_unfocused_selected_fg_color #100b09;
+@define-color unfocused_insensitive_color #644530;
+@define-color unfocused_borders alpha(#e5dac5, 0.15);
+@define-color warning_color #e5a221;
+@define-color error_color #a8472a;
+@define-color success_color #0caa4a;
+@define-color destructive_color #a8472a;
+
+/* Content View Colors */
+@define-color content_view_bg #18110e;
+@define-color text_view_bg #18110e;
+
+/* Dialog boxes & Libadwaita Modals fixes */
+messagedialog {
+    background-color: @dialog_bg_color;
+    color: @dialog_fg_color;
+}
+
+messagedialog label {
+    color: @dialog_fg_color;
+}
+
+messagedialog .secondary-text {
+    color: @muted;
+}
+
+/* Ensure inactive / secondary buttons (Cancel, Discard) use clearly legible light text */
+messagedialog button,
+alertdialog button,
+.dialog-action-box button,
+button.secondary,
+button.flat,
+button:not(.suggested-action):not(.destructive-action) {
+    color: @foreground;
+    background-color: #2d211a;
+    border: 1px solid alpha(#e5dac5, 0.2);
+}
+
+messagedialog button:hover,
+alertdialog button:hover,
+.dialog-action-box button:hover,
+button.secondary:hover,
+button.flat:hover {
+    color: #ffffff;
+    background-color: #5b3321;
+    border-color: @accent_bg_color;
+}
+
+/* Ensure disabled states are still legible but muted */
+button:disabled {
+    color: alpha(#e5dac5, 0.4);
+    background-color: alpha(#2d211a, 0.5);
+}
+
+/* GtkAlertDialog styling */
+alertdialog.background {
+    background-color: @dialog_bg_color;
+    color: @dialog_fg_color;
+}
+
+alertdialog .titlebar {
+    background-color: @headerbar_bg_color;
+    color: @headerbar_fg_color;
+}
+
+alertdialog box {
+    background-color: @dialog_bg_color;
+}
+
+alertdialog label {
+    color: @dialog_fg_color;
+}
+
+alertdialog .secondary-label {
+    color: @muted;
+}
+
+/* File chooser styling */
+filechooser .dialog-action-box {
+    background-color: @dialog_bg_color;
+    border-top: 1px solid alpha(#e5dac5, 0.15);
+}
+
+/* Toast styling */
+toast {
+    background-color: #18110e;
+    color: #e5dac5;
+    border: 1px solid @accent_bg_color;
+}
+
+/* Sharp corners for that dystopian technical look */
+* {
+    border-radius: 0;
+}

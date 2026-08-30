@@ -1,0 +1,39 @@
+# Vox Humana Theme - A dark, dystopian, yet whimsical palette
+# Derived from the 'voxhumana.jpg' colors.
+
+mode = "dark"
+
+accent = "#e5a221"
+selection = "#5b3321"
+muted = "#644530"
+
+background = "#201713"
+dark_background = "#18110e"
+darker_background = "#100b09"
+lighter_background = "#2d211a"
+
+foreground = "#e5dac5"
+dark_foreground = "#9f9f9e"
+light_foreground = "#ece3d4"
+bright_foreground = "#f2e8d5"
+
+red = "#a8472a"
+green = "#0caa4a"
+yellow = "#e5a221"
+orange = "#ce944c"
+blue = "#3285b4"
+magenta = "#ab7fa8"
+cyan = "#7fa8ab"
+brown = "#5b3321"
+
+# Bright variants for standard terminal colors:
+bright_red = "#c85a3c"
+bright_green = "#23c260"
+bright_yellow = "#f2b53c"
+bright_blue = "#4a9ac6"
+bright_magenta = "#c09ec0"
+bright_cyan = "#9cc4c6"
+
+# Hyprland borders
+hyprland_active_border = "rgba(e5a221ee) rgba(a8472aee) 45deg"
+hyprland_inactive_border = "rgba(2d211aaa)"
