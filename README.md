@@ -1,5 +1,10 @@
 # Vox Humana Theme for Omarchy
 
+> [!IMPORTANT]
+> **Project Status — Shared "As-Is" / Not Actively Maintained**
+>
+> This Vox Humana theme was built primarily for my personal **Omarchy Linux** setup and is **not an actively maintained project**. It is shared publicly **"as-is"** in the hope that it may be useful to others — you are welcome to use, modify, or fork it freely under the [MIT License](LICENSE), though issues and pull requests may not receive responses.
+
 ![Vox Humana Preview](preview.png)
 
 <img width="3200" height="2000" alt="screenshot-2026-08-29_20-17-25" src="https://github.com/user-attachments/assets/6b6a5c0a-4be5-4d2b-b352-5a4b657016c8" />
